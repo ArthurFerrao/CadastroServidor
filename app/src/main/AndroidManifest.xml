@@ -15,8 +15,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Activity.Cadastro" />
-        <activity android:name=".Activity.Listar"></activity>
+        <activity android:name=".Activity.CadastroActivity" />
+        <activity android:name=".Activity.ListarActivity"></activity>
     </application>
 
 </manifest>

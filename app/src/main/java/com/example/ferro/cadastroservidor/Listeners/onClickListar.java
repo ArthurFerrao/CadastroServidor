@@ -3,7 +3,7 @@ package com.example.ferro.cadastroservidor.Listeners;
 import android.content.Intent;
 import android.view.View;
 
-import com.example.ferro.cadastroservidor.Activity.Listar;
+import com.example.ferro.cadastroservidor.Activity.ListarActivity;
 import com.example.ferro.cadastroservidor.Activity.MainActivity;
 
 /**
@@ -17,7 +17,7 @@ public class onClickListar implements View.OnClickListener{
 
     @Override
     public void onClick(View view) {
-        Intent intent = new Intent(this.main, Listar.class);
+        Intent intent = new Intent(this.main, ListarActivity.class);
         this.main.startActivity(intent);
     }
 }
