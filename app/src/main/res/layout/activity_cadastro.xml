@@ -28,10 +28,6 @@
         android:layout_height="wrap_content"
         android:text="Enviar"
         android:id="@+id/btEnviar"/>
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Voltar"
-        android:id="@+id/btVoltar"/>
+
 
 </LinearLayout>
